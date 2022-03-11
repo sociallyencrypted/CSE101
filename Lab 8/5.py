@@ -1,6 +1,3 @@
-from unittest import skip
-
-
 n = int(input())
 l = [int(i) for i in input().split()]
 d = int(input())
@@ -21,7 +18,7 @@ for r in range(len(l)):
                     ans2.append(x)
             ansl.append(ans)
             ansl.append(ans2)
-            if abs(sum(ans) - sum(ans2)) == d:
+            if abs(sum(ans) - sum(ans2)) == abs(d):
                 bl = True
 if bl:
     print("YES")
