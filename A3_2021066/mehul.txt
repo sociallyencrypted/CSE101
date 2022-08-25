@@ -1,0 +1,2 @@
+2022-04-07 18:56:00.803539 The amount of rupees 60 has been added Current balance -> 160
+2022-04-07 18:56:06.353687 The amount of rupees 30 has been deducted Current balance -> 130
